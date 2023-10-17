@@ -1,1 +1,34 @@
+/* Apply styles for laptop-sized screens and larger */
+@media (min-width: 1024px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0; /* Light gray background */
+        margin: 20px; /* Margin for the whole document */
+        padding: 20px; /* Padding for the whole document */
+    }
+
+    h1 {
+        font-size: 36px; /* Large font size for the title */
+        color: #1e90ff; /* Royal Blue color */
+    }
+
+    h2 {
+        font-size: 24px; /* Slightly smaller font size for headings */
+        color: #FF5733; /* Deep Orange color */
+    }
+
+    p {
+        font-size: 16px; /* Standard font size for paragraphs */
+        color: #555; /* Dark Gray color */
+        line-height: 1.5; /* Line height for readability */
+    }
+
+    ul {
+        margin-left: 20px; /* Left margin for unordered lists */
+    }
+
+    li {
+        font-size: 16px; /* Font size for list items */
+    }
+}
 
