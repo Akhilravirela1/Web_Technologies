@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Grail Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>    
+    <h1 class="title">Electronics</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#">Watches</a></li>
+        <li><a href="#">Dial Watches</a></li>
+        <li><a href="#">Smart Watches</a></li>
+      </ul>
+    </nav>
+    <main id="content">
+      <div class="color-changer">
+        <button id="change-color-button">Change Color</button>
+      </div>
+    </main>
+
+    <aside id="advertisement">
+      <a href="https://a.co/d/cstFGxH" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/41syeWWMCeL._AC_.jpg" alt="Advertisement">
+      </a>
+    </aside>
+  </div>
+<footer>
+  <div class="addendum">
+    <h2>Addendum</h2>
+    <p>
+      The JavaScript code in script.js introduces a simple interactive feature that allows users to change the background color of the webpage by clicking the "Change Color" button.
+    </p>
+    <h3>Overview</h3>
+    <p>
+      The core functionality is implemented using event listeners. When the "Change Color" button is clicked, a random hexadecimal color code is generated, and it is applied as the background color of the webpage's container.
+    </p>
+    <h3>Technical Details</h3>
+    <ul>
+      <li>
+        <strong>Event Handling:</strong> The JavaScript code listens for the 'click' event on the "Change Color" button using an event listener. Upon the click event, the getRandomColor function is called.
+      </li>
+      <li>
+        <strong>Random Color Generation:</strong> The getRandomColor function generates a random hexadecimal color code. This code is then applied to the background color of the container element.
+      </li>
+      <li>
+        <strong>User Interaction:</strong> The interactive feature enhances user engagement, providing a simple and visually appealing way to modify the webpage's appearance.
+      </li>
+    </ul>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
