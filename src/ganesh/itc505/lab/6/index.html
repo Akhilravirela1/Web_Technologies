@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Grail Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>    
+    <h1 class="title">Travelling</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#">Flight</a></li>
+        <li><a href="#">Bus</a></li>
+        <li><a href="#">Train</a></li>
+		<li><a href="#">Ship</a></li>
+		<li><a href="#">Car</a></li>
+      </ul>
+    </nav>
+
+    <main id="content">
+ <div class="counter">
+        <div id="product-container"></div>
+        <button id="show-product-button">Show Random Travel Tip</button>
+        <select id="select-travel-tip"></select>
+        <button id="show-selected-tip-button">Show Selected Travel Tip</button>
+      </div>
+    </main>
+
+    <aside id="advertisement">
+      <a href="https://a.co/d/iSgzWBv" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/715nmNBF+vL._AC_SX569_PIbundle-9,TopRight,0,0_SH20_.jpg" alt="Advertisement">
+      </a>
+    </aside>
+  </div>
+<footer>
+  <div class="addendum">
+    <h2>Addendum</h2>
+    <p>
+      The JavaScript code in script.js is designed to provide users with random travel tips upon interaction. This enhances user engagement and provides valuable information for travelers.
+    </p>
+    <h3>Overall javascript</h3>
+    <p>
+      The core functionality involves displaying random travel tips when the user clicks the "Show Random Travel Tip" button. Additionally, users can choose a specific travel tip from a dropdown list and display it using the "Show Selected Travel Tip" button.
+    </p>
+    <h3>Problems faced and Solutions doneaccordingly</h3>
+    <ul>
+      <li>
+        <strong>Dropdown Implementation:</strong> Implementing the dropdown for selecting specific travel tips required careful handling of index values. The solution involved dynamically populating the dropdown and retrieving the selected tip based on the index.
+      </li>
+      <li>
+        <strong>Ensuring User Interaction:</strong> Ensuring that the buttons trigger the expected behavior and that the content is appropriately displayed involved thorough testing and validation. Event listeners were used to handle button clicks and update the content accordingly.
+      </li>
+    </ul>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
