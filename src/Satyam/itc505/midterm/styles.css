@@ -1,0 +1,49 @@
+body {
+  font-family: 'Verdana', sans-serif; /* Changed font to Verdana */
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4bfe5eb8-39af-4beb-9b8d-15a67512f794/d6yhn6g-8792d4cf-98ad-4d29-9dfb-4ff8ad51ff58.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRiZmU1ZWI4LTM5YWYtNGJlYi05YjhkLTE1YTY3NTEyZjc5NFwvZDZ5aG42Zy04NzkyZDRjZi05OGFkLTRkMjktOWRmYi00ZmY4YWQ1MWZmNTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pGzEzgKXy_mmcsZoLsd1hTB3PU45C9I4Nsc0b4F-sSg');  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  background-color: #66CDAA;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+
+#story {
+  margin-bottom: 20px;
+}
+
+#story-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Changed text color */
+}
+
+#choices {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db; /* Changed button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9; /* Changed button hover background color */
+}
