@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Grail Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>    
+    <h1 class="title">Furniture Layout</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+	    <li><u><b><a href="#">Items</a></b></u></li>
+        <li><a href="#">Chairs</a></li>
+        <li><a href="#">Tables</a></li>
+        <li><a href="#">Sofa</a></li>
+      </ul>
+    </nav>
+    <main id="content">
+     <div class="quote-container">
+  <button id="show-quote-button">Show Random Quote</button>
+  <p id="quote-text"></p>
+</div>
+    </main>
+
+    <aside id="advertisement">
+      <a href="https://a.co/d/jdm0o12" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/7175TNygjXL._AC_SX569_.jpg" alt="Advertisement">
+      </a>
+    </aside>
+  </div>
+<footer>
+  <div class="addendum">
+    <h2>About Javascript</h2>
+    <p>
+      The JavaScript code in script.js introduces an engaging feature that enriches user experience by showcasing random inspirational quotes. Users can easily explore motivational content by clicking the "Show Random Quote" button.
+    </p>
+    <h3>implementation</h3>
+    <p>
+      The implementation revolves around dynamic content generation. Clicking the button triggers the getRandomElementFromArray function, which randomly selects an inspirational quote from a predefined array, delivering a fresh perspective with each interaction.
+    </p>
+    <h3>Technical Breakdown</h3>
+    <ul>
+      <li>
+        <strong>Event Handling:</strong> The JavaScript code utilizes an event listener to respond to the 'click' event on the "Show Random Quote" button, ensuring seamless user interaction.
+      </li>
+      <li>
+        <strong>Random Quote Mechanism:</strong> The getRandomElementFromArray function serves as the engine for randomness, picking a quote from the array and dynamically updating the webpage content.
+      </li>
+      <li>
+        <strong>User Empowerment:</strong> The goal is to empower users with motivation and positivity, creating an immersive experience that goes beyond static content.
+      </li>
+    </ul>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
