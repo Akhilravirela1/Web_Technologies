@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Grail Layout</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+  <header>    
+    <h1 class="title">Book Store of Holy Grail Layout</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+	    <li><b><u>Types of Books</u></b></li>
+        <li><a href="#">Fantasy</a></li>
+        <li><a href="#">Horror</a></li>
+        <li><a href="#">Thriller</a></li>
+		<li><a href="#">History</a></li>
+		<li><a href="#">Mystery</a></li>
+      </ul>
+    </nav>
+
+    <main id="content">
+
+<div class="book-library">
+  <h2>Virtual Library</h2>
+  <form id="book-form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" placeholder="Enter the title">
+    <label for="author">Author:</label>
+    <input type="text" id="author" placeholder="Enter the author">
+    <button type="button" id="add-book-button">Add Book</button>
+  </form>
+  <ul id="book-list">
+  </ul>
+</div>
+    </main>
+
+    <aside id="advertisement">
+      <a href="https://www.amazon.com/Brainer-Diary-Wimpy-Kid-Book/dp/1419766945/?_encoding=UTF8&pd_rd_w=Mamai&content-id=amzn1.sym.64be5821-f651-4b0b-8dd3-4f9b884f10e5&pf_rd_p=64be5821-f651-4b0b-8dd3-4f9b884f10e5&pf_rd_r=F1X67H06JMAPS72V6YM3&pd_rd_wg=q20lU&pd_rd_r=6288c50d-a105-49d6-a6a5-1e1f7d4c0776&ref_=pd_gw_crs_zg_bs_283155" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/51Md5DMsP1L._SY445_SX342_.jpg" alt="Advertisement">
+      </a>
+    </aside>
+  </div>
+
+	<footer>
+	  <div class="addendum">
+		<h2>Addendum</h2>
+		<h3>problem addressed</h3>
+		<p>
+		  In the JavaScript code, the problem addressed was to enable the addition of books to the virtual library when the "Add Book" button is clicked.
+		</p>
+		<h3>Overview of the Solution</h3>
+		<p>
+		   To achieve this, an event listener was implemented to capture the click event on the button and prevent the default form submission behavior using event.preventDefault(). The function addBook then extracts the title and author values from input fields, creates a new list item with the book details, and appends it to the book list. The input fields are then cleared for subsequent entries. A conditional alert was included to prompt the user to enter both title and author if either field is empty.
+		</p>
+
+		<h3>conclusion</h3>
+		<p>
+		The process involved straightforward DOM manipulation to dynamically add book entries based on user input. No significant difficulties were encountered, and the solution focused on ensuring a seamless addition of books to the library while providing user feedback in case of missing information.
+		</p>
+	  </div>
+	</footer>
+
+
+  <script src="book.js"></script>
+</body>
+</html>
