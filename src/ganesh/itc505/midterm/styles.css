@@ -73,7 +73,6 @@ button:hover {
   background-color: #219a52;
 }
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%; 
+  position: relative; 
+  width: 100%;
 }
