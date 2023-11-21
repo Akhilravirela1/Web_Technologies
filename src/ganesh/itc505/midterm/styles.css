@@ -75,3 +75,12 @@ button:hover {
   background-color: #219a52;
 }
 
+footer {
+  padding: 20px;
+  text-align: center;
+  /* Fixed positioning at the bottom */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
